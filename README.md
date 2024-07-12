@@ -7,9 +7,9 @@ This script collects wifi configs and passwords of known networks from remote ma
 It includes optional functions to add the wlan profiles to your known networks, display ssid's and their keys, or delete known networks from a machine.  
 
 
-Uses:
+To use:
 Get-Wifi -Computer TARGETCOMPUTER
 
 
-Optional:
+Optional Parameters:
 Get-Wifi -Computer TARGETCOMPUTER -AddWifi (Yes/No) -RemoveWifi (Yes/No)
